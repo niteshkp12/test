@@ -7,7 +7,7 @@ interface SingleMethodInterface {
 public class Java8Lambda {
 
 	public static void main(String[] args) {
-		System.out.println("Java8Lambda.main()");
+		System.out.println("Java8Lambda.main()12");
 
 		SingleMethodInterface SingleMethodInterface1 = new SingleMethodInterface() {
 			@Override
