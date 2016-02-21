@@ -1,4 +1,4 @@
-package com.sapient.chap5;
+package com.nitesh.web.chap5;
 
 public class Dog {
 	private String breed;
