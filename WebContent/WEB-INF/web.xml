@@ -15,13 +15,13 @@
   </context-param>
   <servlet>
     <servlet-name>servlet1</servlet-name>
-    <servlet-class>com.sapient.chap5.MyListnerTest</servlet-class>
+    <servlet-class>com.nitesh.web.chap5.MyListnerTest</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>servlet1</servlet-name>
     <url-pattern>/*</url-pattern>
   </servlet-mapping>
   <listener>
-    <listener-class>com.sapient.chap5.MyServletContextListner</listener-class>
+    <listener-class>com.nitesh.web.chap5.MyServletContextListner</listener-class>
   </listener>
 </web-app>
