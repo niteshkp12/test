@@ -1,29 +1,27 @@
 package com.test.java8;
 
-import java.text.DateFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
 public class TestTest {
 	public static void main(String[] args) {
+
 		System.out.println("TestTest.main()");
-		DateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
-		Date date = new Date();
-		String dateStr = dateFormat.format(date);
-		System.err.println(dateStr);
+		int[] array = { 2, 5, 3, 4, 2, 3, 4, 3 };
+		int num = oddNumberProblem(array);
+		System.err.println("num: " + num);
 		
-		DateFormat dateFormat2 = new SimpleDateFormat("dd-MMM-yyyy");
-		Date s = null;
-		System.err.println(s);
+		System.out.println(true && (32 & 31)==0);
+		System.out.println((2!=0));
+		
 	}
 
-	void method1() {
-
-	}
-
-	String method12() {
-		return "";
+	private static int oddNumberProblem(int[] array) {
+		int result=0;
+		for(int i : array){
+			result = result^i;
+			System.err.println(result);
+		}
+		return result;
+			
 	}
 
 }
+
